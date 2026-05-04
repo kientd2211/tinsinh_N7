@@ -10,7 +10,6 @@ python -m venv env
 2. Cài đặt thư viện (Theo thứ tự bắt buộc)
 Để tránh lỗi "DLL Hell" và xung đột phiên bản trên Windows, vui lòng cài đặt chính xác theo thứ tự sau:
 
-PowerShell
 # 1. Cài đặt PyTorch chuẩn 1.13.1 cho CPU
 ```
 pip install torch==1.13.1+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
@@ -36,12 +35,15 @@ git clone https://github.com/bjing2016/OmegaFold
 pip install --no-deps -e OmegaFold
 ```
 
-🚀 Cách chạy dự án
-1. Dự đoán cấu trúc (Inference)
+5. Cách chạy dự án
 Sử dụng lệnh sau để sinh mẫu cấu trúc cho protein trong file demo.csv:
-
 ```
 python inference.py --model_dir ./pretrained_model --ckpt release1.pt --embeddings_dir ./embeddings --embeddings_key name --num_samples 5 --splits demo.csv
 ```
 
 Kết quả (file .pdb) sẽ được lưu tại thư mục con bên trong pretrained_model/.
+
+Tải app PyMOL để biểu diễn protein: [PyMOL  ](https://www.pymol.org/)
+
+
+
