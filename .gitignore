@@ -1,0 +1,21 @@
+# Môi trường ảo
+env/
+env_linux/
+__pycache__/
+
+# Các thư mục tạm do lỗi code Linux/Windows sinh ra
+tmp_*/
+
+# Các file nặng (Weights và Model)
+*.pt
+*.pth
+release1.pt
+
+# Kết quả chạy thử và so sánh
+embeddings/
+pretrained_model/
+esmfold_result.pdb
+comparison_chart.png
+
+# Folder thư viện con (Nếu bạn pull cả folder OmegaFold)
+OmegaFold/
