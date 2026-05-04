@@ -12,8 +12,6 @@ tmp_*/
 release1.pt
 
 # Kết quả chạy thử và so sánh
-embeddings/
-pretrained_model/
 esmfold_result.pdb
 comparison_chart.png
 

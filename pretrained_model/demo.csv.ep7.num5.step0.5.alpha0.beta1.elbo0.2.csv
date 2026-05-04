@@ -1,0 +1,6 @@
+path,copy,elbo_Y,rmsd,gdt_ts,gdt_ha,tm,lddt
+./data/pdb_chains\cr\crambin,0,,,,,,
+./data/pdb_chains\cr\crambin,1,,,,,,
+./data/pdb_chains\cr\crambin,2,,,,,,
+./data/pdb_chains\cr\crambin,3,,,,,,
+./data/pdb_chains\cr\crambin,4,,,,,,
